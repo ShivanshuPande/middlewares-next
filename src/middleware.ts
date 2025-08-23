@@ -1,4 +1,3 @@
-// middleware.ts - place this in project root (same level as package.json)
 
 import { NextRequest, NextResponse } from 'next/server'
 
@@ -22,3 +21,5 @@ export const config = {
         '/((?!api|_next/static|_next/image|favicon.ico).*)',
     ],
 }
+
+// oh my god , it finally work 
